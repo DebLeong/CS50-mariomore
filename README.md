@@ -28,3 +28,40 @@ If the user fails to provide a non-negative integer no greater than ```23```, yo
 Then, generate (with the help of ```printf``` and one or more loops) the desired half-pyramids.
 
 Take care to left-align the bottom-left corner of the left-hand half-pyramid with the left-hand edge of your terminal window.
+
+## Usage
+Your program should behave per the example below. Assumed that the underlined text is what some user has typed.
+
+```
+$ ./mario
+Height: 4
+   #  #
+  ##  ##
+ ###  ###
+####  ####
+```
+
+```
+$ ./mario
+Height: 0
+$ ./mario
+Height: -5
+Height: 4
+   #  #
+  ##  ##
+ ###  ###
+####  ####
+```
+
+```
+$ ./mario
+Height: -5
+Height: five
+Height: 40
+Height: 24
+Height: 4
+   #  #
+  ##  ##
+ ###  ###
+####  ####
+```
