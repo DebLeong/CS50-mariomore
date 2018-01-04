@@ -16,7 +16,7 @@ Height: 4
 ## Background
 Toward the beginning of World 1-1 in Nintendo’s Super Mario Brothers, Mario must hop over two "half-pyramids" of blocks as he heads toward a flag pole. Below is a screenshot.
 
-[!Mario] (Mario.png)
+![Mario] (Mario.png)
 
 ## Specification
 Write, in a file called ```mario.c``` in your ```~/workspace/pset1/mario/more/``` directory, a program that recreates these half-pyramids using hashes (```#```) for blocks.
